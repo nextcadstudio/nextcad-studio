@@ -43,5 +43,3 @@ next-env.d.ts
 # Visual Studio
 .vs/
 
-# Large background music file
-/public/NextCAD Music Background.mp3
