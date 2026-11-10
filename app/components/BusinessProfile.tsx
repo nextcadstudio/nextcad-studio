@@ -2,25 +2,25 @@
 
 const services = [
     {
-        number: "01",
+        number: "",
         title: "Architectural Design",
         description:
             "Perencanaan dan pengembangan desain arsitektur dengan pendekatan yang matang, proporsional, dan berorientasi pada kebutuhan klien.",
     },
     {
-        number: "02",
+        number: "",
         title: "3D Visualization",
         description:
             "Visualisasi tiga dimensi yang membantu Anda memahami ruang, material, pencahayaan, dan karakter desain sebelum direalisasikan.",
     },
     {
-        number: "03",
+        number: "",
         title: "Interior Design",
         description:
             "Eksplorasi interior yang menyatukan fungsi, kenyamanan, estetika, dan identitas dalam satu kesatuan desain.",
     },
     {
-        number: "04",
+        number: "",
         title: "CAD & Technical Modeling",
         description:
             "Pemodelan dan dokumentasi teknis yang terstruktur untuk mendukung komunikasi desain dan proses pengembangan proyek.",
@@ -28,10 +28,10 @@ const services = [
 ];
 
 const process = [
-    ["01", "Discovery", "Memahami kebutuhan, tujuan, karakter, dan ruang lingkup proyek Anda."],
-    ["02", "Concept", "Mengembangkan arah desain yang terukur dan selaras dengan visi klien."],
-    ["03", "Development", "Menyempurnakan detail, visualisasi, serta kebutuhan teknis yang relevan."],
-    ["04", "Delivery", "Menyajikan hasil pekerjaan secara terstruktur sesuai lingkup dan kesepakatan proyek."],
+    ["", "Discovery", "Memahami kebutuhan, tujuan, karakter, dan ruang lingkup proyek Anda."],
+    ["", "Concept", "Mengembangkan arah desain yang terukur dan selaras dengan visi klien."],
+    ["", "Development", "Menyempurnakan detail, visualisasi, serta kebutuhan teknis yang relevan."],
+    ["", "Delivery", "Menyajikan hasil pekerjaan secara terstruktur sesuai lingkup dan kesepakatan proyek."],
 ];
 
 export default function BusinessProfile() {
@@ -75,15 +75,6 @@ export default function BusinessProfile() {
                     </p>
 
                     <div className="mt-9 flex flex-wrap items-center gap-6">
-                        <a
-                            href={whatsapp}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-4 bg-[#c5b28d] px-6 py-4 text-xs font-semibold uppercase tracking-[0.14em] text-[#171511] transition hover:bg-[#e0d0ae]"
-                        >
-                            Discuss Your Project <span className="text-base">↗</span>
-                        </a>
-
                         <a
                             href="#expertise"
                             className="border-b border-white/30 pb-2 text-xs uppercase tracking-[0.15em] text-white/75 transition hover:border-white hover:text-white"
