@@ -735,7 +735,7 @@ export default function HomeGallery({
                                         </p>
                                         <a
                                             href="#company-services"
-                                            className="magnetic-link mt-4 inline-flex items-center gap-3 rounded-lg border border-[#a78bfa]/60 px-4 py-2.5 text-xs font-medium text-[#c4b5fd] hover:bg-[#a78bfa]/10"
+                                            className="magnetic-link mt-4 inline-flex items-center gap-3 rounded-lg border border-[#a78bfa]/60 px-4 py-2.5 text-xs font-medium text-justify text-[#c4b5fd] hover:bg-[#a78bfa]/10"
                                         >Learn more<span></span></a>
                                     </div>
 
