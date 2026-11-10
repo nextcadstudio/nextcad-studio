@@ -19,10 +19,7 @@ const iconPaths: Record<string, string> = {
     home: "M3 10.5 12 3l9 7.5M5 9v11h14V9M9 20v-7h6v7",
     explore: "M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20ZM16 8l-2.5 5.5L8 16l2.5-5.5L16 8Z",
     cube: "m12 2 9 5-9 5-9-5 9-5ZM3 7v10l9 5 9-5V7M12 12v10",
-
-    // Ikon gedung untuk menu Company Profile
     "building-2": "M3 21h18M5 21V7l8-4v18M19 21V11l-6-4M9 9h.01M9 12h.01M9 15h.01M9 18h.01M15 12h.01M15 15h.01M15 18h.01",
-
     heart: "M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z",
     users: "M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M10 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM20 8v6M23 11h-6",
     search: "m21 21-4.3-4.3M19 10.5a8.5 8.5 0 1 1-17 0 8.5 8.5 0 0 1 17 0Z",
@@ -479,8 +476,8 @@ export default function HomeGallery({
                 }
             `}</style>
 
-            <div className="flex min-h-screen w-full items-start gap-4 p-4">
-                <aside className="sticky top-4 z-30 hidden h-[calc(100vh-2rem)] w-[240px] min-w-[240px] shrink-0 flex-col overflow-y-auto rounded-2xl border border-white/[0.08] bg-[#0b101c] px-1 py-7 lg:flex">
+            <div className="flex min-h-screen w-full items-start gap-4 p-3">
+                <aside className="sticky top-4 z-40 hidden h-[calc(100vh-2rem)] w-[240px] min-w-[240px] shrink-0 flex-col overflow-y-auto rounded-2xl border border-white/[0.08] bg-[#0b101c] px-5 py-6 lg:flex">
                     <button
                         onClick={() => selectPage("Home")}
                         className="mb-12 flex items-center gap-3 text-left"
@@ -488,7 +485,7 @@ export default function HomeGallery({
                         <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-violet-500/15 text-violet-300">
                             <Icon name="cube" size={27} />
                         </span>
-                        <span className="text-[18px] font-bold tracking-tight">
+                        <span className="text-[15px] font-bold tracking-tight">
                             NextCAD<span className="text-violet-400"> Studio</span>
                         </span>
                     </button>
@@ -852,7 +849,7 @@ export default function HomeGallery({
                                         <p className="text-[10px] font-semibold uppercase tracking-[.28em] text-[#a78bfa]">
                                             Our Commitment
                                         </p>
-                                        <h2 className="mt-3 text-2xl font-light text-justify leading-tight sm:text-3xl">
+                                        <h2 className="mt-2 text-2xl font-light text-justify leading-tight sm:text-1xl">
                                             A thoughtful process.
                                         </h2>
                                     </div>
