@@ -736,9 +736,7 @@ export default function HomeGallery({
                                         <a
                                             href="#company-services"
                                             className="magnetic-link mt-4 inline-flex items-center gap-3 rounded-lg border border-[#a78bfa]/60 px-4 py-2.5 text-xs font-medium text-[#c4b5fd] hover:bg-[#a78bfa]/10"
-                                        >
-                                            Tentang Kami <span>↗</span>
-                                        </a>
+                                        >Learn more<span></span></a>
                                     </div>
 
                                     <a
