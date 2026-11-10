@@ -93,7 +93,7 @@ export default async function AdminLayout({
             </form>
 
             <p className="mt-4 px-4 text-[10px] tracking-wider text-slate-600">
-              NextCAD Studio © 2026
+              NextCAD Studio © 2025
             </p>
           </div>
 

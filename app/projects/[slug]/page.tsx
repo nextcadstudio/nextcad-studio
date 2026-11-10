@@ -406,7 +406,7 @@ export default function ProjectDetailPage() {
 
         <footer className="mt-16 border-t border-white/10
           py-6 text-sm text-slate-500">
-          RenderHub © 2026 — A creative space for 3D artists.
+          RenderHub © 2025 — A creative space for 3D artists.
         </footer>
       </div>
     </main>
